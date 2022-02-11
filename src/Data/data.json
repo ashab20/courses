@@ -1,0 +1,24 @@
+[
+    {
+        "CourseName":"Computer Fundamental",
+        "Catagories":["Basic Computer","MS Word","MS Excel","MS Access","MS Power Point"],"Ruls":["Yes","No"]
+    },{
+       "CourseName": "Web Devlopment",
+       "Catagories":[
+           "HTML | CSS | JAVASCRIPT","ES6","REACT NEXT JS","NODE JS","Express","MongoDB"
+           ],
+        "Ruls":["Yes","No"]
+    },{
+        "CourseName": "Graphic Design",
+        "Catagories":[
+            "Adobe Photoshop","Adobe Illustraror","GIMP","Inskcape","MS Power Point"
+            ],
+        "Ruls":["Yes","No"]
+    },{
+       "CourseName": "Video Editing",
+       "Catagories":[
+           "Adobe Premire pro","Adobe Afther Effect","Audacity","Resolve","3d animation"
+           ],
+        "Ruls":["Yes","No"]
+    }
+]
