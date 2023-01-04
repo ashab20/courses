@@ -1,22 +1,40 @@
-*** runnung backend server **
-#install vendor
+### How to Run This Project ###
+install vendor
+```
 composer update
-migration or run inport the sql file on the database
-#running server
+```
+* migration 
+```
+php artisan migrate
+```
+##### Or
+imnport the sql file on the database
+* running server
+
+```
 php artisan serve
+```
 
+#### running frontend ###
+```
+cd frontend
+```
+* installing node module
 
-***running frontend **
-	cd frontend
-#install node module
-yarn 
-or 
+```
+yarn
+``` 
+or
+
+``` 
 npm i
-#start frontend server
+```
+#
+* start frontend server
+```
 yarn start
+```
 
-Goto http://127.0.0.1:300 (default)
-some function does not work on localhost:300
-
-
+Goto http://127.0.0.1:3000 (default)
+some function does not work on localhost:3000
 
