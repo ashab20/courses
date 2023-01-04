@@ -33,7 +33,7 @@ import UpdateStudent from "./Pages/Students/Update";
 function App() {
   const authenticated = useAuth();
   return (
-    <BrowserRouter>
+   
       <Routes>
         {authenticated ? (
           <>
@@ -124,7 +124,7 @@ function App() {
         />
         <Route path="*" element={<Notfound />} />
       </Routes>
-    </BrowserRouter>
+
   );
 }
 
