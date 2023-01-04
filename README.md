@@ -1,11 +1,8 @@
 ### How to Run This Project ###
 
-* run backend server
+* backend
 ```
 cd backend
-```
-install vendor
-```
 composer update
 ```
 * migration 
@@ -19,23 +16,23 @@ imnport the sql file on the database
 ```
 php artisan serve
 ```
+`
+
+## frontend ##
 ```
 cd ..
-```
-
-#### run frontend ###
-```
 cd frontend
 ```
-* installing node module
-
+#### run frontend ###
 ```
 yarn
-``` 
-or
+yarn start
 
+```
+### or ###
 ``` 
 npm i
+npm start
 ```
 #
 * start frontend server
