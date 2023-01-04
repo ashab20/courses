@@ -1,6 +1,6 @@
-### How to Run This Project ###
+# How to Run This Project ###
 
-* backend
+## backend ##
 ```
 cd backend
 composer update
