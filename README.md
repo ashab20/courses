@@ -1,4 +1,9 @@
 ### How to Run This Project ###
+
+* run backend server
+```
+cd backend
+```
 install vendor
 ```
 composer update
@@ -14,8 +19,11 @@ imnport the sql file on the database
 ```
 php artisan serve
 ```
+```
+cd ..
+```
 
-#### running frontend ###
+#### run frontend ###
 ```
 cd frontend
 ```
