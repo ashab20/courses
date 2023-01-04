@@ -82,6 +82,34 @@ function Navber() {
               <NavItem>
                 <NavLink to="/contact">Contact</NavLink>
               </NavItem>
+              {authenticated && (
+                <NavItem className="  ">
+                  <Link className="m-2" to="/admin/dashboard">
+                    Dashboard
+                  </Link>
+                  <Link
+                    className="text-white p-2  m-1 rounded-sm bg-pink-400"
+                    to="/logout"
+                  >
+                    Logout
+                  </Link>
+                </NavItem>
+              )}
+
+              {!authenticated && (
+                <>
+                  <NavItem className="p-2 px-4 m-1 rounded-sm bg-emerald-500">
+                    <Link className="text-white" to="/login">
+                      Login
+                    </Link>
+                  </NavItem>
+                  <NavItem className="p-2 px-4 m-1  rounded-sm bg-cyan-500">
+                    <Link className="text-white" to="/registration">
+                      Registration
+                    </Link>
+                  </NavItem>
+                </>
+              )}
             </ListContainer>
           </MenuStyled>
         ) : null}
@@ -110,12 +138,13 @@ function Navber() {
             <Link className="m-2" to="/admin/dashboard">
               Dashboard
             </Link>
-            <Link className="text-white p-2  m-1 rounded-sm bg-pink-400" to="/logout">
+            <Link
+              className="text-white p-2  m-1 rounded-sm bg-pink-400"
+              to="/logout"
+            >
               Logout
             </Link>
-            
           </NavItem>
-          
         </ListContainer>
       ) : (
         <ListContainer>
